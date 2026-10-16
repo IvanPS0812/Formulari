@@ -44,6 +44,8 @@
                 <input type="radio" id="dona" name="genere" value="dona">
                 <label for="dona">Dona</label>
                 <input type="radio" id="altre" name="genere" value="altre">
+                <label for="no">No ho vull dir</label>
+                <input type="radio" id="no" name="genere" value="no">
                 <label for="altre">Altre</label>
                 <label>Quines son les teves aficions?</label>
                 <input type="checkbox" id="programacio" name="aficions" value="programacio">
@@ -54,6 +56,12 @@
                 <label for="esport">Esport</label>
                 <input type="checkbox" id="musica" name="aficions" value="musica">
                 <label for="musica">Música</label>
+                <input type="checkbox" id="cinema" name="aficions" value="cinema">
+                <label for="cinema">Cinema</label>
+                <label for="mes">Quan vols començar l'activitat?</label>
+                <input type="month" id="mes" name="mes">
+                <label for="hora">quin horari et va millor?</label>
+                <input type="time" id="hora" name="hora">
             </fieldset>
             <fieldset>
                 <legend>Localització</legend>
@@ -65,6 +73,7 @@
                     <option value="portugal">Portugal</option>
                     <option value="alemanya">Alemanya</option>
                     <option value="regne_unit">Regne Unit</option>
+                    <option value="rumania">Rumania</option>
                 </select>
                 <label for="municipi">Municipi</label>
                 <input type="text" id="municipi" name="municipi" list="municipis">
@@ -77,6 +86,8 @@
                     <option value="Sabadell">
                     <option value="Terrassa">
                     <option value="Mataró">
+                    <option value="Granollers">
+                    <option value="Madrid">
                 </datalist>
 
             </fieldset>
@@ -88,8 +99,6 @@
                 <input type="file" id="fitxer" name="fitxer">
                  <label for="condicions">Accepto les condicions de la inscripció</label>
                 <input type="checkbox" id="condicions" name="condicions">
-                
-
             </fieldset>
 
             <input type="submit" value="Enviar">
